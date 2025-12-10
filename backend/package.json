@@ -1,0 +1,29 @@
+{
+  "name": "project-billing-api",
+  "version": "1.0.0",
+  "description": "Project Billing System API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [
+    "project",
+    "billing",
+    "time-tracking",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC"
+}
